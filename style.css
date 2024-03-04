@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbutt {
+    text-decoration: none;
+    float: left;
+    color: #00a6fb;
+    background-color: #003554;
+    padding: 0.75vw;
+    width: 6vw;
+    height: 1vw;
+    text-align: center;
+    margin: 0.5vw;
+    font-size: 10pt;
+}
+
+.navbutt>p {
+    margin: auto;
+}
+
+.navbutt:hover {
+    float: left;
+    background-color: #00a6fb;
+    color: #003554;
+}
+
+.topNavbar {
+    float: left;
+    background-color: #051923;
+    width: 100%;
+    height: 4vw;
+    color: #00a6fb;
+    margin: 0 0 1vw;
+}
+
+.mainContainer {
+    float: left;
+    clear: both;
+    background-color: #003554;
+    width: 100%;
+}
+
+.footer {
+    float: left;
+    clear: both;
+    background-color: #051923;
+    width: 100%;
+    color: #00a6fb;
+}
+
+.logoContainer {
+    float: left;
+}
+
+.abbreviationContainer {
+    display: flex;
+    flex-direction: row;
+    height: 3vw;
+    width: 3vw;
+}
+
+@media screen and (max-width: 600px) {}
